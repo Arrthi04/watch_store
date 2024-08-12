@@ -1,0 +1,173 @@
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #b742f6;
+}
+
+.hero-section {
+  background: url('https://www.innovationnewsnetwork.com/wp-content/uploads/2023/05/shutterstockDaniel-Calatayud_302011454-1024x576.jpg') no-repeat center center/cover;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h2 {
+  color: #a384b4;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #f9a825;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.featured-watches {
+  padding: 20px;
+  text-align: center;
+}
+
+.watches-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.watch-item {
+  width: 30%;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.watch-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  border-radius: 10px;
+}
+
+.watch-item:hover .watch-image {
+  transform: scale(1.2);
+  filter: brightness(80%);
+}
+
+.watch-item h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.watch-item p {
+  font-size: 1.1em;
+  color: #f9a825;
+}
+
+/* Existing CSS... */
+
+.featured-watches {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.featured-watches h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.watch-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.watch-item:hover {
+  transform: scale(1.05);
+}
+
+.watch-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.watch-item:hover .watch-image {
+  transform: scale(1.1);
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 24px;
+  transform: translateY(-50%);
+  border-radius: 5px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.thumbnail-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.thumbnail.active {
+  border-color: #f9a825;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
